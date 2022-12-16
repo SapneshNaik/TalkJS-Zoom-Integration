@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.chatbox-container {
+  width: 420px;
+  max-width: 100%;
+  margin: auto;
+}
+/* Custom header for the chatbox*/
+.chatbox-header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(29, 96, 225);
+  border-radius: 10px 10px 0 0;
+}
+
+#header-bg {
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0.6;
+}
+
+.user-avatar {
+position: absolute;
+height: 50px;
+width: 50px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+border: 2px solid #eee;
+margin-left: 20px;
+top: 15px;
+}
+
+#chatbox-header p {
+font-family: "Helvetica", sans-serif;
+color: #eee;
+margin-right: 0px;
+margin-top: 5px;
+}
+
+#header-subject {
+position: absolute;
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 85px;
+top: 30px;
+}
+
+/* Notification toggle */
+.button-container {
+  text-align: right;
+  bottom: 100px;
+  right: 10px;
+  left: 20px;
+  top: 100px;
+  margin-right: 10px;
+}
+
+.button-container p {
+  display: inline;
+  font-size: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  left: 50px;
+  top: 100px;
+}
+
+.videocall{
+float: right;
+margin-right: 0px;
+top: 50px;
+margin-top: 20px;
+cursor: pointer;
+}
+
+.backbutton{
+float: left;
+margin-left: 0px;
+top: 50px;
+margin-top: 20px;
+}
+
+.avatar {
+border-radius: 50%;
+width: 10%;
+align-items: left;
+}
